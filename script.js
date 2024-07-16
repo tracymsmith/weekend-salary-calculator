@@ -48,11 +48,11 @@ function calculateTotalMonthlySalary() {
     
     document.getElementById('totalMonthlySalary').textContent = totalMonthlySalary.toFixed();
 
+// Function to calculate and warn if over monthly salary budget
 const budgetStatusElement = document.getElementById('budgetStatus');
 if (totalMonthlySalary > 20000) {
     document.querySelector('footer').classList.add('over-budget');
-    budgetStatusElement.textContent = "Over Budget!";
-    console.log("Over Budget");
+    budgetStatusElement.textContent = "!!!OVER BUDGET!!!";
 } else {
     document.querySelector('footer').classList.remove('over-budget');
     budgetStatusElement.textContent = "Meets Budget Goals";

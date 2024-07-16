@@ -1,80 +1,57 @@
-# Project Name
+PROJECT NAME:  JS SALARY CALCULATOR
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
-
-## Description
-
-Your project description goes here. What problem did you solve? How did you solve it?
-
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
-<!-- (View Raw will give you the markdown that you can copy to your repos!)
-
-
-![MIT LICENSE](https://img.shields.io/github/license/scottbromander/the_marketplace.svg?style=flat-square)
-![REPO SIZE](https://img.shields.io/github/repo-size/scottbromander/the_marketplace.svg?style=flat-square)
-![TOP_LANGUAGE](https://img.shields.io/github/languages/top/scottbromander/the_marketplace.svg?style=flat-square)
-![FORKS](https://img.shields.io/github/forks/scottbromander/the_marketplace.svg?style=social)
-
-# PROJECT NAME
-
-## Description
-
-_Duration: 2 Week Sprint_
-
-Directly above this is how long it took you to develop the project. Your project description goes here. What problem did you solve? How did you solve it? 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam at massa in faucibus. Etiam volutpat, risus non mollis convallis, velit nisi pulvinar mi, eu faucibus orci nisi eget nibh. Integer a velit pretium, volutpat arcu eleifend, fringilla elit. Cras erat sapien, convallis venenatis tellus vitae, feugiat dictum felis.
-
-Suspendisse euismod volutpat aliquet. Maecenas vulputate mauris in pellentesque facilisis. Phasellus varius malesuada semper. Cras sollicitudin diam mollis maximus aliquam.
-
-To see the fully functional site, please visit: [DEPLOYED VERSION OF APP](www.heroku.com)
-
-## Screen Shot
-
-Include one or two screen shots of your project here (optional). Remove if unused.
-
-### Prerequisites
-
-Link to software that is required to install the app (e.g. node).
-
-- [Node.js](https://nodejs.org/en/)
-- List other prerequisites here
-
-## Installation
-
-How do you get your application up and running? This is a step by step list for how another developer could get this project up and running. The good target audience in terms of knowledge, would be a fellow Primer from another cohort being able to spin up this project. Note that you do not need a paragraph here to intro Installation. It should be step-by-step.
-
-If your application has secret keys (for example --  Twilio), make sure you tell them how to set that up, both in getting the key and then what to call it in the `.env` file.
-
-1. Create a database named `your database name`,
-2. The queries in the `tables.sql` file are set up to create all the necessary tables and populate the needed data to allow the application to run correctly. The project is built on [Postgres](https://www.postgresql.org/download/), so you will need to make sure to have that installed. We recommend using Postico to run those queries as that was used to create the queries, 
-3. Open up your editor of choice and run an `npm install`
-4. Run `npm run server` in your terminal
-5. Run `npm run client` in your terminal
-6. The `npm run client` command will open up a new browser tab for you!
-
-## Usage
-How does someone use this application? Tell a user story here.
-
-1. xxx
-2. xxx
-3. xxx
-4. xxx
-5. xxx
-6. xxx
+DESCRIPTION:
+    Duration:  1 week
+    Challenged to create an application to record employee salaries and add total salaries to report monthly costs.
+    Utilized Javascript, Node, VS Code and Google Chrome to build application with input fields, table, submit and delete
+    buttons and functions to enter and/or delete employee information that pushed to table plus calculate
+    and compare total annual salaries to monthly salaries budget amount. Added functionality to issue alerts
+    if/when total annual salaries exceeded monthly salary budget limit. Further functions included clearing input fields
+    upon clicking submit button; removing employee data with delete button as well as removing deleted employee salary
+    from total salary amounts; writing function to dynamically calculate and display on DOM sum of employee annual salaries
+    as entered; convert annual salaries to monthly salary amounts; compare total monthly salary amounts to monthly budget
+    limit and issue visible alerts on DOM if over budget. 
 
 
-## Built With
+SCREEN SHOT:
+    ![alt text](<Screenshot 2024-07-16 at 1.37.09 AM-1.png>)
 
-List technologies and frameworks here
+PREREQUISITES:
+    Node --> https://nodejs.org/en
+    VS Code --> https://vscode.dev/
+    Javascript --> https://www.javascript.com/
+    Google Chrome --> https://www.google.com/chrome/
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+INSTALLATION:
+    1. Install Node. 
+    2. Open the editor of your choice and run an npm install.
+    3. Create .html file to instruct DOM how to display application.
+    4. Create .js file with code and functions to build input fields, buttons, summary and comparative
+       salary calculations and a dynamic table.
+    5. Create .css file to format and display application on DOM that is appealing, readable and efficient.
+    6. Test code often using npm test plus frequently review and update/improve display on DOM. 
 
-_Note, include this only if you have a license file. GitHub will generate one for you if you want!_
+USAGE:
+    1. HR/Personnel departments in large corporations to track and monitor total salary costs vs salary budgets.
+    2. Small businesses for managing staffing budgets.
+    3. Volunteers / board members at nonprofit organizations to provide budget oversight as application is very simple
+       and easy to use with very little training required.
+    4. School districts to monitor and calculate full- and part-time salaries to stay within tax allocations/budgets.
+    5. CPA's / tax accountants to advise clients of annual salary costs/goals.
+    6. Department heads to maximize staffing within budget limits.
 
-## Acknowledgement
-Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. (Thank your people)
 
-## Support
-If you have suggestions or issues, please email me at [youremail@whatever.com](www.google.com) -->
+BUILT WITH:
+    Javascript
+    Node
+    VS Code
+    Google Chrome
+
+LICENSE:
+    N/A
+
+ACKNOWLEDGEMENT:
+    Thank you to Prime Digital Academy instructors, TA's and staff who taught and guided me to make this application a reality. Heartfelt thanks to my Developer Partner Isaac Amano for his patience and dedication to the pursuit of excellence.
+
+SUPPORT:
+    If you have any suggestions, issues, questions or comments, please email me at tmhsllc@icloud.com.
